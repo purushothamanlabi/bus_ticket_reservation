@@ -1,0 +1,92 @@
+.checkout-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f5f9; /* Light blue background */
+  }
+  
+  .right-side {
+    background-color: #ffffff; /* White background */
+    padding: 1rem;
+    width: 400px; /* Reduced width */
+    height: 500px; /* Reduced height */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .receipt-heading {
+    font-size: 1.4rem;
+    color: #2d3748; /* Dark blue text color */
+  }
+  
+  .table {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+  
+  .total td {
+    font-size: 1.2rem;
+  }
+  
+  .price {
+    text-align: end;
+  }
+  
+  .payment-info {
+    padding: 0 1rem;
+  }
+  
+  .payment-heading {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-box {
+    gap: 1rem;
+  }
+  
+  .form-box label {
+    font-size: 1rem;
+  }
+  
+  .form-box input {
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid #cbd5e0; /* Light blue border */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .btn {
+    background-color: #4c616b; /* Dark blue button background */
+    border: none;
+    border-radius: 8px;
+    color: #eff2f3;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 5rem; /* Increased left margin */
+    padding: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #5f7986; /* Darker blue hover color */
+    transition: ease-out 0.1s;
+  }
+  
+  .footer-text {
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .form-box *:focus {
+    outline: none;
+  }
+  
+  
